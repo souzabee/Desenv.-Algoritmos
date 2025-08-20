@@ -1,3 +1,4 @@
+//main1.c
 #include<stdio.h>
 #include"calculadora.h"
 
@@ -9,7 +10,7 @@ int main(){
     printf("Divisao: %f\n", divisao(a, b));
 
     if (divisao_valida(b)) {
-        printf("Divisao: %d\n", divisao(a, b));
+        printf("Divisao: %f\n", divisao(a, b));
     }
     else {
         printf("Divisao invalida\n");
