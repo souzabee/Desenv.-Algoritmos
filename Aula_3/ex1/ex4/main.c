@@ -2,6 +2,6 @@
 #include"funcoes.h"
 
 int main(){
-    calc();
+    printf("Resultado: %d\n", calc());
     return 0;
 }

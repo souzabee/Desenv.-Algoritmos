@@ -20,8 +20,23 @@ int calc(){
         return calculo;
         break;
     
+    case 3:
+        if(y == 0){
+            printf("Divisão por 0, inválida\n");
+            break;
+        }
+        calculo = x / y;
+        return calculo;
+        break;
+    
+    case 4:
+        calculo = x * y;
+        return calculo;
+        break;
+
     default:
-        printf("Nao");
+        printf("Operação inválida\n");
+        return 0;
         break;
     }
 }
