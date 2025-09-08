@@ -8,13 +8,23 @@ int num(){
         do{
         printf("Digite um número: ");
         scanf("%d", &num);
-    }while(num < 1 || num > 100);
-    if(num == 0){
-        break;
+        }while(num != 0 && (num < 1 || num > 100));
+        
+        
+        if (num == 0){                  
+            break;                       
+        }
+        
+        acum += num;
+        cont++;    
     }
-    acum += num;
-    cont++;
+
+    if(cont == 0){
+        return 0; 
+    }
     
-    }
+    
+    
+    
     return acum / cont;
 }

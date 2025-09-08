@@ -2,10 +2,8 @@
 #include"funcoes.h"
 
 int main(){
-    while(1){
-        num();
-    }
-    printf("A média é: %d\n", num());
+    int media = num();
+    printf("A média é: %d\n", media);
     return 0;
 
 }
