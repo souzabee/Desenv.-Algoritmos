@@ -34,7 +34,7 @@ void formatar_nome(char *nome){
 }
 
 int main(){
-    char nome[] = "      AA    aaaAAA";
+    char nome[] = "      AA    aaaAAA    AAAA";
     formatar_nome(nome);
     printf("%s\n", nome);
     return 0;    
